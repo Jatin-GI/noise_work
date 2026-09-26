@@ -1,4 +1,4 @@
-import { EarphoneCanvas, HeadphonesCanvas } from './model/model'
+import { EarphoneCanvas, HeadphonesCanvas } from './model/Model'
 
 const features = [
   { stat: '40 hr', label: 'Playtime', copy: 'Enough charge for a week of commutes.' },
