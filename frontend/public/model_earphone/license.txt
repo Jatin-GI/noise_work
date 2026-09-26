@@ -1,0 +1,11 @@
+Model Information:
+* title:	Earbuds
+* source:	https://sketchfab.com/3d-models/earbuds-b2311c5e132a44feade3b966048e3915
+* author:	zhe_kan (https://sketchfab.com/zhe_kan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Earbuds" (https://sketchfab.com/3d-models/earbuds-b2311c5e132a44feade3b966048e3915) by zhe_kan (https://sketchfab.com/zhe_kan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
