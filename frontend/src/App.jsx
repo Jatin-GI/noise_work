@@ -1,3 +1,5 @@
+import Footer from './components/Footer'
+import Header from './components/Header'
 import { EarphoneCanvas, HeadphonesCanvas } from './model/Model'
 
 const features = [
@@ -29,27 +31,10 @@ const App = () => {
   return (
     <div id="top" className="min-h-screen bg-white text-[#111]">
       <div className="bg-[#111] px-5 py-2 text-center text-[11px] tracking-[0.14em] text-white uppercase">
-        Work sample · Drag the products to look around
+      Colorfit Ultra 4 | Pre-book Now 
       </div>
 
-      <header className="sticky top-0 z-20 border-b border-black/10 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 md:px-8">
-          <a href="#top" className="text-2xl font-semibold tracking-tight lowercase">
-            noise
-          </a>
-          <nav className="hidden items-center gap-8 text-sm md:flex">
-            <a href="#product" className="hover:opacity-60">Headphones</a>
-            <a href="#earbuds" className="hover:opacity-60">Earbuds</a>
-            <a href="#sound" className="hover:opacity-60">Features</a>
-            <a href="#specs" className="hover:opacity-60">Specs</a>
-          </nav>
-          <a href="#product" className="inline-flex items-center gap-2 text-sm" aria-label="Bag">
-            <BagIcon />
-            <span className="hidden sm:inline">Bag</span>
-          </a>
-        </div>
-      </header>
-
+     <Header />
       <main>
         <section id="product" className="bg-[#f3f3f3]">
           <div className="mx-auto grid max-w-6xl items-center lg:grid-cols-2">
@@ -135,9 +120,9 @@ const App = () => {
           <div className="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-20">
             <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
               <h2 className="text-3xl font-medium tracking-tight md:text-4xl">Halo specs</h2>
-              <p className="max-w-sm text-sm text-black/50">
+              {/* <p className="max-w-sm text-sm text-black/50">
                 Concept numbers for this sample. Not a real Noise product listing.
-              </p>
+              </p> */}
             </div>
             <dl className="mt-10 bg-white">
               {specs.map(([label, value]) => (
@@ -151,19 +136,7 @@ const App = () => {
         </section>
       </main>
 
-      <footer className="bg-[#111] text-white">
-        <div className="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-12 md:flex-row md:items-end md:justify-between md:px-8">
-          <div>
-            <p className="text-2xl font-semibold tracking-tight lowercase">noise</p>
-            <p className="mt-3 max-w-sm text-sm text-white/55">
-              Personal work sample. Not an official Noise website.
-            </p>
-          </div>
-          <p className="max-w-sm text-xs leading-relaxed text-white/40">
-            Headphones by QuickDriftVR. Earbuds by zhe_kan. Both CC-BY-4.0, via Sketchfab.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   )
 }
